@@ -24,7 +24,7 @@ h1 span{
 }
 
 .left-card{
-    font-family: Mate SC;
+    font-family: Mate;
 }
 
 /* Desktop Viewport */
@@ -69,24 +69,70 @@ h1 span{
         align-items: center;
     }
 
-    .left-card > h1{
+    .left-card  h1{
         font-size: 48px;
+    }
+
+    .left-card h3{
+        font-size: 18px;
+        letter-spacing: 4.2px;
+        color: #5A7E5B;
+        margin-top: 20px;
+    }
+
+    .left-card > :nth-child(3){
+        font-size: 18px;
+        width: 464px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .buttons{
+        display: flex;
+        margin-top: 20px;
+        gap: 18px;
+    }
+
+    .btn1{
+        width: 158px;
+        height: 62px;
+        font-size: 22px !important;
+        background-color: #5A7E5B !important;
+        border: none !important;
+        border-radius: 8px !important;
+        letter-spacing: 0.5px;
+    }
+
+    .btn2{
+        width: 158px;
+        height: 62px;
+        font-size: 22px !important;
+        background-color: white !important;
+        border: solid #5A7E5B 1px !important;
+        border-radius: 8px !important;
+        color: #5A7E5B !important;
+        letter-spacing: 0.5px;
     }
 
     .stores{
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        margin-top: 20px;
+        gap: 10px;
     }
 
     #google{
-        width: 33px;
-        height: 33px;
+        width: 20px;
+        height: 20px;
+        margin-top: -15px;
     }
 
     #apple{
-        width: 43px;
-        height: 43px;
+        width: 23px;
+        height: 23px;
+        margin-top: -15px;
     }
 
     .left-card{
