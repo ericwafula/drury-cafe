@@ -23,6 +23,10 @@ h1 span{
     display: none;
 }
 
+.left-card{
+    font-family: Mate SC;
+}
+
 /* Desktop Viewport */
 @media screen and (min-width: 800px){
     .header{
@@ -63,5 +67,35 @@ h1 span{
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .left-card > h1{
+        font-size: 48px;
+    }
+
+    .stores{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #google{
+        width: 33px;
+        height: 33px;
+    }
+
+    #apple{
+        width: 43px;
+        height: 43px;
+    }
+
+    .left-card{
+        margin-top: 108px;
+    }
+
+    .right-card > img{
+        width: 534px;
+        height: 534px;
+        margin-top: 108px;
     }
 }
