@@ -139,6 +139,10 @@ h1 span{
         margin-top: 108px;
     }
 
+    .right-card img{
+        border-radius: 35%;
+    }
+
     .right-card > img{
         width: 534px;
         height: 534px;
