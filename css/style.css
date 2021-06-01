@@ -55,6 +55,24 @@ h1 span{
         padding-right: 70px !important;
     }
 
+    body{
+        position: relative;
+    }
+
+        /* Pop Up */
+    /* .pop-up::after{
+        content: "";
+        background-color: red;
+        width: 724px;
+        height: 635px;
+        position: absolute;
+        z-index: 1;
+        top: 10%;
+        left: 30%;
+        right: 30%;
+        border-radius: 50px;
+    } */
+
     #logo{
         display: none;
     }
