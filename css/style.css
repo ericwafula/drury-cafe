@@ -53,4 +53,10 @@ h1 span{
     .card{
         border: none !important;
     }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
