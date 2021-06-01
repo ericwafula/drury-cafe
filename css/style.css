@@ -1,0 +1,56 @@
+/* Mobile Viewport */
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 70px;
+}
+
+.header h1{
+    font-size: 4.35vw;
+    margin-top: 10px;
+}
+
+h1 span{
+    color: #5A7E5B;
+}
+
+.header ul{
+    display: none;
+}
+
+/* Desktop Viewport */
+@media screen and (min-width: 800px){
+    .header{
+        padding-left: 170px;
+        padding-right: 170px;
+        padding-top: 10px;
+    }
+
+    .header h1{
+         font-size: 24px;
+         font-weight: bold;
+         margin-top: 0;
+    }
+
+    .header ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    .container{
+        
+    }
+}
